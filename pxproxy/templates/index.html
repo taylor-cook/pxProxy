@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Example</title>
+</head>
+<body>
+    <h1>Hello, {{ data.name }}!</h1>
+    <p>You are {{ data.age }} years old.</p>
+    <p>Your interests are:</p>
+    <ul>
+        {% for interest in data.interests %}
+        <li>{{ interest }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
