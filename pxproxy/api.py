@@ -1,6 +1,6 @@
 import requests
 from flask import Flask, render_template
-from flask_socketio import SocketIO, emit
+from flask-socketio import SocketIO, emit
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
